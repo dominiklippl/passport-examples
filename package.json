@@ -1,0 +1,38 @@
+{
+  "name": "passport-oauth2-test",
+  "version": "1.0.0",
+  "description": "This project contains some passport strategy examples (oauth2 and openid-connect) mainly to test an auth provider",
+  "main": "index.js",
+  "directories": {
+    "src": "src"
+  },
+  "scripts": {
+    "test": "node server.js",
+    "serve": "export NODE_ENV=testing PORT=9000 && nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominiklippl/passport-examples.git"
+  },
+  "keywords": [
+    "oauth2",
+    "openid",
+    "passport"
+  ],
+  "author": "Dominik Lippl <mail@dominiklippl.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dominiklippl/passport-examples/issues"
+  },
+  "homepage": "https://github.com/dominiklippl/passport-examples#readme",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "cookie-session": "^2.0.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "passport": "^0.5.0",
+    "passport-oauth2": "^1.6.1",
+    "passport-openidconnect": "^0.1.1"
+  }
+}
